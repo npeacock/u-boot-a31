@@ -51,6 +51,9 @@
 #define CONFIG_DISPLAY_CPUINFO
 #define CONFIG_DISPLAY_BOARDINFO
 
+
+#define CONFIG_USE_ARCH_MEMCPY
+#define CONFIG_USE_ARCH_MEMSET
 /* Clock Defines */
 
 
