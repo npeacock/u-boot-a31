@@ -245,7 +245,7 @@ static int mmc_config_clock(struct mmc *mmc, unsigned clk)
 
 	if (clk <=400000) {
 		mmchost->mod_clk = 400000;
-		writel(0x8012010f, mmchost->mclkbase);
+		writel(0x8002010f, mmchost->mclkbase);
 	} else {
 		u32 pll6clk = 0;
 		u32 m, n, k;

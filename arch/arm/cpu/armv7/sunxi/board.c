@@ -50,7 +50,7 @@ static bd_t bdata __attribute__ ((section(".data")));
  * of the gpio pin.
  */
 int storage_type = 0;
-int uart_console = 0;
+int uart_console = 1;
 int mmc_card_no  = 0;
 
 #ifdef CONFIG_CMD_NET
